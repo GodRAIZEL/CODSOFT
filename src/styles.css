@@ -1,0 +1,70 @@
+body{
+    color: #fff;
+}
+
+.nav-link{
+    font-size: 18px;
+	color: #c17717;
+	font-weight: 600;
+    margin-right: 18px;
+}
+
+.sign-in{
+    color: #fff;
+    font-weight: 600;
+}
+
+.hero-section{
+    position: relative;
+    background-image: url("HomePage.jpg"); /* URL to your background image */
+    background-size: cover; /* Make the image cover the entire section */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the image */
+    height: 80vh; /* Full viewport height */
+}
+
+.hero-phrase{
+    color:darkgoldenrod;
+}
+
+.hero-description{
+    font-weight: 700;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Adjust opacity to make it darker or lighter */
+}
+
+.hero-image{
+    border-radius: 20px;
+}
+
+.hero-button{
+    background-color: #c17717;
+    color: #e2dddd;
+    font-weight: 600;
+}
+
+.hero-button:hover{
+    background-color: #ae6c16;
+}
+
+
+.hero-container{
+    position: relative;
+    z-index: 1;
+}
+
+.about-us{
+    padding: 20px 0;
+}
+.about-us-heading{
+    color: #c17717;
+    text-align: center;
+    font-weight: 700;
+}
