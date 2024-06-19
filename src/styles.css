@@ -20,8 +20,7 @@ body{
     background-size: cover; /* Make the image cover the entire section */
     background-repeat: no-repeat; /* Prevent the image from repeating */
     background-position: center; /* Center the image */
-    height: 80vh; /* Full viewport height */
-}
+}  
 
 .hero-phrase{
     color:darkgoldenrod;
@@ -63,6 +62,7 @@ body{
 .about-us{
     padding: 20px 0;
 }
+
 .about-us-heading{
     color: #c17717;
     text-align: center;
