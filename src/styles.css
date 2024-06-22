@@ -1,32 +1,58 @@
-body{
+body {
     color: #fff;
+    background-color: #f5f0f0;
 }
 
-.nav-link{
+.nav-link {
     font-size: 18px;
-	color: #c17717;
-	font-weight: 600;
+    color: #c17717;
+    font-weight: 600;
     margin-right: 18px;
 }
 
-.sign-in{
+.nav-link:hover {
+    font-size: 19px;
+    color: #985e12;
+    transition: all 0.3s ease 0s;
+}
+
+.sign-in {
     color: #fff;
     font-weight: 600;
-}
-
-.hero-section{
     position: relative;
-    background-image: url("HomePage.jpg"); /* URL to your background image */
-    background-size: cover; /* Make the image cover the entire section */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    background-position: center; /* Center the image */
-}  
-
-.hero-phrase{
-    color:darkgoldenrod;
+    top: -5px;
+    transition: all 0.3s ease 0s;
 }
 
-.hero-description{
+.sign-in:hover {
+    background-color: rgb(199, 149, 33);
+    border: 1px solid rgb(199, 149, 33);
+    color: #fff;
+}
+
+
+.hero-section {
+    position: relative;
+    background-image: url("HomePage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+@media only screen and (min-width: 991px) {
+    .hero-section {
+        height: 90vh;
+    }
+}
+
+
+
+.hero-phrase {
+    color: darkgoldenrod;
+}
+
+.hero-description {
     font-weight: 700;
 }
 
@@ -36,35 +62,262 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6); /* Adjust opacity to make it darker or lighter */
+    background: rgba(0, 0, 0, 0.6);
+
 }
 
-.hero-image{
+.hero-image {
     border-radius: 20px;
 }
 
-.hero-button{
+.hero-button {
     background-color: #c17717;
     color: #e2dddd;
     font-weight: 600;
 }
 
-.hero-button:hover{
+.hero-button:hover {
     background-color: #ae6c16;
+    color: #fff;
 }
 
 
-.hero-container{
+.hero-container {
     position: relative;
     z-index: 1;
 }
 
-.about-us{
+.Browse {
     padding: 20px 0;
+    margin-bottom: 20px;
+
 }
 
-.about-us-heading{
+.Browse-heading {
     color: #c17717;
     text-align: center;
     font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    background-color: #f5f0f0;
+    width: 400px;
+    margin: 10px;
+    padding: 0 0 5px 0;
+    border: 2px solid rgb(208, 163, 26);
+    border-radius: 10px;
+    transition: all 0.3s ease 0s;
+}
+
+.card-image {
+    background-color: aqua;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.card-1 {
+    background-image: url('BlackPepperBiltong.jpg');
+    background-size: cover;
+    border-radius: 9px 9px 0 0;
+}
+
+.card-2 {
+    background-image: url('GeelvetBiltong.jpg');
+    background-size: cover;
+    border-radius: 9px 9px 0 0;
+}
+
+.card-3 {
+    background-image: url('BoereworsBiltong.jpg');
+    background-size: cover;
+    border-radius: 9px 9px 0 0;
+}
+
+.card h5,
+p {
+    padding: 0 8px 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card p {
+    height: 38%;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.card h5 {
+    font-weight: 600;
+    color: #ae6c16;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    cursor: pointer;
+}
+
+.button-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.card-button {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #c17717;
+    border: 1px solid #c17717;
+    color: #f5f0f0;
+    font-weight: 600;
+}
+
+.card-button:hover {
+    background-color: #ae6c16;
+    color: #fff;
+}
+
+.about-us {
+    background-color:  #f3e7e7;;
+}
+
+.text p {
+    color: rgb(43, 41, 41);
+}
+
+.text h5 {
+    color: #ae6c16;
+    font-weight: 600;
+}
+
+
+.about-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+
+.about-us-img {
+    border-radius: 15px;
+    width: 450px;
+    height: 450px;
+    background-color: aqua;
+}
+
+.about-us-img-cover {
+    background-image: url('Aboutusbiltong.jpg');
+    background-size: cover;
+    border-radius: 14px;
+}
+
+.about-us-text {
+    padding: 80px;
+    width: 800px;
+}
+
+.about-us-text h2 {
+    color: #ae6c16;
+    margin-bottom: 20px;
+    margin-left: 6px;
+    font-weight: 700;
+}
+
+.about-us-text p {
+    color: rgb(43, 41, 41);
+    height: 38%;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.about-us-button {
+    margin: 10px 0 0 10px;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: #c17717;
+    border: 1px solid #c17717;
+    color: #f5f0f0;
+    font-weight: 600;
+}
+
+.about-us-button:hover {
+    background-color: #ae6c16;
+    color: #fff;
+}
+
+
+ @media only screen and (min-width: 1005px) and (max-width: 1250px) {
+
+    .about-us-img {
+        width: 450px;
+        height: 450px;
+
+    }
+
+    .about-us-text {
+        width: 550px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1004px){
+    .about-us-img {
+        width: 550px;
+        height: 450px;
+    }
+
+    .about-us-text {
+        width: 800px;
+    }
+
+    .about-us-button-holder{
+        display: flex;
+        justify-content: center;
+        margin-top: 28px;
+    }
+
+    .about-us-button {
+        padding:20px 25px 20px 25px ;
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width:599px) {
+    .about-us-container {
+        
+    }
+    .about-us-img {
+        width: 350px;
+        height: 350px;
+        margin:0 7px 18px 7px;
+    }
+
+    .about-us-text {
+        width: 100%;
+        padding: 10px 10px;
+    }
+
+    .about-us-button-holder{
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+    }
+}
+
+.reviews{
+    padding: 40px 0;
+    background-color:#f5f0f0;
+}
+
+.reviews h2{
+    color: #c17717;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 30px;
 }
