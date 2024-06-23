@@ -33,7 +33,7 @@ body {
 
 .hero-section {
     position: relative;
-    background-image: url("HomePage.jpg");
+    background-image: url("imgs/HomePage.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -124,19 +124,19 @@ body {
 }
 
 .card-1 {
-    background-image: url('BlackPepperBiltong.jpg');
+    background-image: url('imgs/BlackPepperBiltong.jpg');
     background-size: cover;
     border-radius: 9px 9px 0 0;
 }
 
 .card-2 {
-    background-image: url('GeelvetBiltong.jpg');
+    background-image: url('imgs/GeelvetBiltong.jpg');
     background-size: cover;
     border-radius: 9px 9px 0 0;
 }
 
 .card-3 {
-    background-image: url('BoereworsBiltong.jpg');
+    background-image: url('imgs/BoereworsBiltong.jpg');
     background-size: cover;
     border-radius: 9px 9px 0 0;
 }
@@ -214,7 +214,7 @@ p {
 }
 
 .about-us-img-cover {
-    background-image: url('Aboutusbiltong.jpg');
+    background-image: url('imgs/Aboutusbiltong.jpg');
     background-size: cover;
     border-radius: 14px;
 }
@@ -321,3 +321,82 @@ p {
     font-weight: 700;
     margin-bottom: 30px;
 }
+
+.review-cards-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-title{
+    height:55px;
+}
+
+.card-text{
+    margin-bottom: 60px;
+    color:rgb(67, 64, 64);
+}
+
+.review-line{
+    display:flex;
+    justify-content: center;
+    width: 15rem;
+    height: 1px;
+    border: 1px solid  #c17717;
+    opacity: 0.4;
+    margin: 20px 0;
+    position: relative;
+    right: -5px;
+}
+
+.review-img-and-text{
+    display: flex;
+}
+
+.review-img{
+    margin-right: 15px;
+    height: 70px;
+    width:70px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+.review-name-place{
+    padding-top: 5px;
+}
+
+.review-name{
+    margin-bottom: 1px;
+}
+
+.review-place{
+   color: rgb(111, 109, 109);
+}
+
+.review-img1{
+    background-image: url('imgs/person1.avif');
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.review-img2{
+    background-image: url('imgs/person2.avif');
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.review-img3{
+    background-image: url('imgs/person3.avif');
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.review-img4{
+    background-image: url('imgs/person4.avif');
+    background-size: cover;
+    border-radius: 50%;
+}
+
+
+
+
